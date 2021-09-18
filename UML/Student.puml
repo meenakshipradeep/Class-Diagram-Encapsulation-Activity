@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Student{
+- name : String
+- grade : gradeEnum
+- group : groupEnum
+- secretNickName : String
+Student(String name, gradeEnum grade, groupEnum group) : void
++ getGrade():gradeEnum
++ gatName(): String
++ upgrade() : void
++ downgrade() : void
+}
+enum gradeEnum{
+ A
+ B
+ C
+ D
+ E
+}
+enum groupEnum{
+FIRST
+SECOND
+THIRD
+FOURTH
+FIFTH
+}
+
+
+@enduml
