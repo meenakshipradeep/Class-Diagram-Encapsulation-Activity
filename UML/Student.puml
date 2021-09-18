@@ -20,7 +20,7 @@ enum gradeEnum{
  E
 }
 enum groupEnum{
-FIRST
+FI:RST
 SECOND
 THIRD
 FOURTH
